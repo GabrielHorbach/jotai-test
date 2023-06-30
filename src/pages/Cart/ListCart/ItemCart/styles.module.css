@@ -1,0 +1,26 @@
+.item-cart {
+  border-bottom: 1px solid #5d5d5d;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  column-gap: 1em;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item-cart img {
+  max-height: 200px;
+}
+
+.item-name,
+.item-price {
+  font-size: 2em;
+}
